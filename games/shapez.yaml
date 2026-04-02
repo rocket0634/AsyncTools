@@ -1,8 +1,8 @@
 shapez:
   accessibility: full
   goal:
-    vanilla: 10
-    mam: 40
+    vanilla: 20
+    mam: 30
     even_fasterer: 15
     efficiency_iii: 25
   goal_amount: # Override in trigger
@@ -24,16 +24,12 @@ shapez:
     stretched_shuffled: 50
     quick: 5
     quick_shuffled: 25
-    random_steps: 10
-    random_steps_shuffled: 50
     hardcore: 7
     dopamine: 7
     dopamine_overflow: 1
   randomize_upgrade_logic:
-    vanilla_like: 25
-    linear: 25
-    category: 25
-    category_random: 25
+    vanilla_like: 35
+    linear: 35
     hardcore: 5
   throughput_levels_ratio:
     '0': 25
@@ -48,9 +44,7 @@ shapez:
     5_buildings: 15
     3_buildings: 30
     sphere_1: 5
-  lock_belt_and_extractor:
-    'false': 35
-    'true': 5
+  lock_belt_and_extractor: 'false'
   include_achievements: # Override in trigger
     'false': 25
     'true': 25
@@ -87,13 +81,7 @@ shapez:
       option_result: even_fasterer
       options:
         shapez:
-          goal_amount: random-range-12-25
-    - option_category: shapez
-      option_name: lock_belt_and_extractor
-      option_result: 'true'
-      options:
-        shapez:
-          include_achievements: 'true'
+          goal_amount: random-range-12-18
     - option_category: null
       option_name: name
       option_result: Player{player}
