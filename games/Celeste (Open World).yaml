@@ -6,8 +6,9 @@ Celeste (Open World):
     farewell: 15
   lock_goal_area: true
   goal_area_checkpointsanity: false
-  total_strawberries: random-range-30-70
+  total_strawberries: random-range-100-150
   strawberries_required_percentage: random-range-70-90
+  junk_fill_percentage: 0
   checkpointsanity: random
   binosanity: random
   keysanity:
@@ -82,6 +83,12 @@ Celeste (Open World):
           roomsanity:
             "false": 1
             "true": 3
+    - option_category: Celeste (Open World)
+      option_name: roomsanity
+      option_result: "true"
+      options:
+        Celeste (Open World):
+          total_strawberries: random-range-150-202
     - option_category: null
       option_name: name
       option_result: Player{player}
