@@ -1,17 +1,16 @@
 ﻿Rain World:
   # This weight is determining the chance a vanilla campaign will have the More Slugcats Expansion (DLC) enabled.
   # A large portion of the randomizer's content is gated behind this DLC. Players will need to own it to connect to slots with this setting enabled.
-  # With the additional triggers defined below, the effective chance for a slot to require MSC is 82%
   is_msc_enabled:
-    'false': 50
-    'true': 50
+    'false': 70
+    'true': 30
   # Watcher DLC is still fairly new. It is less likely that a player will own it, and it hasn't been implemented in the randomizer long enough for me to be fully confident in its stability for the Big Async.
   is_watcher_enabled: 'false'
 
   # When a DLC campaign is selected (any but the first 3), the DLC is automatically enabled by triggers defined below.
   which_campaign:
     monk: 1
-    survivor: 1
+    survivor: 2
     hunter: 2
     gourmand: 2
     artificer: 2
@@ -73,11 +72,11 @@
     all_slugcats: 60
     'off': 40
   checks_foodquest_expanded:
-    'false': 60
-    'true': 40
+    'false': 40
+    'true': 60
   checks_devtokens:
-    'false': 60
-    'true': 40
+    'false': 80
+    'true': 20
 
   checks_submerged: only_aquatic
   passage_priority: 0
@@ -86,7 +85,13 @@
   damage_upgrades: 6
   expedition_perks:
     [Back Spear Perk, Dual Wielding Perk, Blast Resistance Perk, Explosive Parry Perk, Explosive Jump Perk, Crafting Perk, Aquatic Perk, Agility Perk]
-  pct_traps: 5
+  pct_traps: 15
+
+  # These passages tend to enter logic early and can be painful / tedious
+  exclude_locations:
+  - Passage - The Martyr
+  - Passage - The Friend
+  - Passage - The Mother
 
   triggers:
 
