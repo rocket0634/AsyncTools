@@ -11,10 +11,10 @@ Satisfactory:
   energy_link:
     'true': 50
   final_elevator_phase:
-    phase 2 (tiers 1-4): 30
-    phase 3 (tiers 1-6): 45
-    phase 4 (tiers 1-8): 15
-    phase 5 (tiers 1-9): 10
+    phase 2 (tiers 1-4): 10
+    phase 3 (tiers 1-6): 30
+    phase 4 (tiers 1-8): 35
+    phase 5 (tiers 1-9): 25
   hard_drive_progression_limit:
     0: 30
     10: 30
