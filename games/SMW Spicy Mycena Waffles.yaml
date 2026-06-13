@@ -1,7 +1,9 @@
 ﻿'SMW: Spicy Mycena Waffles':
   energy_link: true
   early_climb: 'false'
-  goal: random
+  goal:
+    bowser: 2
+    yoshi_house: 1
   yoshi_egg_count: random-range-20-40
   yoshi_egg_placement:
     # - Special Zone
@@ -61,8 +63,9 @@
     random-low: 2
 
   carryless_exits: random
-  swap_level_exits: random
-  swap_exit_count: random
+  swap_exit_count:
+    0: 1
+    random: 1
   swap_donut_gh_exits: 'true'
   map_teleport_shuffle:
     'off': 2
@@ -125,6 +128,11 @@
     - Stun Trap
     - Literature Trap
     - Timer Trap
+    - Sticky Floor Trap
+    - Sticky Hands Trap
+    - Bullet Time Trap
+    - Empty Item Box Trap
+    - Fishin' Boo Trap
 
   triggers:
     - option_category: 'SMW: Spicy Mycena Waffles'
@@ -132,7 +140,7 @@
       option_result: light
       options:
         'SMW: Spicy Mycena Waffles':
-          yoshi_egg_count: random-range-30-100
+          yoshi_egg_count: random-range-30-80
           stun_trap_weight: random
           literature_trap_weight: random
           timer_trap_weight: random
@@ -142,7 +150,7 @@
       option_result: insanity
       options:
         'SMW: Spicy Mycena Waffles':
-          yoshi_egg_count: random-range-50-200
+          yoshi_egg_count: random-range-50-150
           stun_trap_weight: random
           literature_trap_weight: random
           timer_trap_weight: random
