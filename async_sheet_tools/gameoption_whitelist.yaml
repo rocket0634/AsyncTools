@@ -115,20 +115,26 @@ Banjo-Tooie:
     - Banjo-Tooie
     - Locations
     - Name
+    - Logic Type
     - Victory Condition
     - Open HAG 1
     - Minigame Hunt Length
     - Boss Hunt Length
     - Jinjo Family Rescue Length
+    - "Token Hunt: Mumbo Tokens in Pool"
     - Token Hunt Length
     - World Requirements
-    - Randomize Banjo-Tooie Movelist
+    - Skip Puzzles
     - Randomize Banjo-Kazooie Movelist
+    - Randomize Banjo-Tooie Movelist
+    - Jamjars' Silo Costs
     - Egg Behaviour
     - Progressive Beak Buster
+    - Progressive Shoes
     - Progressive Water Training
     - Progressive Flight
     - Progressive Egg Aim
+    - Progressive Bash Attack
     - Randomize Treble Clefs
     - Additional Treble Clefs
     - Number of Bass Clefs
@@ -151,19 +157,20 @@ Banjo-Tooie:
     - Randomize Warp Pads
     - Randomize Silos
     - Open Silos
-    - Skip Puzzles
     - Randomize World Order
     - Randomize World Entrances
+    - Randomize Bosses
     - Open Backdoors
     - Open GI Frontdoor
     - Signpost Hints
     - Signpost Move Hints
+    - Hint Clarity
     - Add Signpost Hints to Archipelago Hints
-    - Extra Cheats
     - Speed Up Minigames
     - Tower of Tragedy Quiz
     - Skip Klungo
     - Automatic Cheat Activation
+    - Extra Cheats
     - King Jingaling Jiggy
     - Replace Extra Jiggies
     - Replace Extra Notes with filler
@@ -180,6 +187,7 @@ Banjo-Tooie:
     - Squish Trap Weight
     - Tip Trap Weight
     - Max Traps
+    - Dialog Character
 Blasphemous:
     - Blasphemous
     - Locations
