@@ -26,7 +26,11 @@
     Tula: true
     Warren: true
   master_count:
+    1: 1
     3: 1
+    5: 1
+    8: 1
+    11: 1
   level_selection:
     1-1 Crimewave: true
     1-2 Call For Help: true
@@ -99,7 +103,11 @@
     9-4 I Love Carats: true
     9-5 Great Ball of Ire: true
   level_count:
-    35: 1
+    20: 2
+    25: 2
+    35: 3
+    40: 2
+    50: 1
   include_full_clears:
     'false': 1
     'true': 1
@@ -108,7 +116,10 @@
   target_score_requirement_percentage:
     125: 1
   maximum_starting_ball_count:
-    15: 1
+    10: 1
+    12: 1
+    15: 2
+    20: 1
   useful_item_percentage:
     random-range-40-70: 1
   useful_item_weights:
@@ -116,6 +127,7 @@
     Full Clear Discount: 3
     Score Multiplier: 2
     Target Score Discount: 1
+  local_items: Shadow Peg
   triggers:
   - option_category: null
     option_name: name
@@ -123,3 +135,10 @@
     options:
       null:
         name: PeggleNight-{player}
+  # This has no effect on the slot, but makes the options sheet less confusing
+  - option_category: Peggle Nights
+    option_name: master_count
+    option_result: 1
+    options:
+      Peggle Nights:
+        master_selection_mode: single_master

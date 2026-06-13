@@ -1260,14 +1260,20 @@ Peggle Deluxe:
     - Locations
     - Name
     - Goal
+    - Master Count
+    - Level Count
     - Include Full Clears
+    - Maximum Starting Ball Count
     - Useful Item Percentage
 Peggle Nights:
     - Peggle Nights
     - Locations
     - Name
     - Goal
+    - Master Count
+    - Level Count
     - Include Full Clears
+    - Maximum Starting Ball Count
     - Useful Item Percentage
 Pokemon Black and White:
     - Pokemon Black and White
