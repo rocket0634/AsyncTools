@@ -1166,11 +1166,14 @@ Nine Sols:
     - Nine Sols
     - Locations
     - Name
-    - Seals For Eigong
+    - Logic Difficulty
     - Shuffle Sol Seals
+    - Seals For Eigong
+    - randomize_shops
     - Skip Soulscape Platforming
     - Jade Cost Maximum
     - First Root Node
+    - shuffle_some_root_nodes
     - Shuffle Wall Climb
 Noita:
     - Noita
