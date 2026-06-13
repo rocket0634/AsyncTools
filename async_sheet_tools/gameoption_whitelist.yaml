@@ -357,6 +357,7 @@ CrossCode:
     - locations
     - Name
     - Goal
+    - Enable DLC
     - Closed Gaia
     - Quest Randomization
     - Shop Randomization
@@ -366,6 +367,7 @@ CrossCode:
     - Progressive Area Unlocks
     - Progressive Equipment
     - Keyrings
+    - Botanity
     - Small Key Shuffle
     - Master Key Shuffle
     - Chest Lock Randomization

@@ -1,9 +1,11 @@
 ﻿CrossCode:
   # Creator is the most common goal, Monkey is a slightly shorter game, and Observatory is situational
+  # Diorbis is the longest, but requires the DLC
   goal:
-    creator: 50
-    monkey: 40
+    creator: 35
+    monkey: 25
     observatory: 10
+    diorbis: 30
   closed_gaia: random
   rhombus_hub_unlock:
     'false': 10
@@ -18,6 +20,9 @@
   keyrings:
     'false': 40
     'true': 10
+  botanity:
+    'false': 30
+    'true': 20
   quest_rando: random
   # May want to turn off to avoid hint spam (though it only creates useful/progressive hints)
   quest_dialog_hints: true
@@ -70,6 +75,42 @@
           legendary_pool_weight: random-low
           consumable_weight: random
           drop_weight: random
+    - option_category: CrossCode
+      option_name: goal
+      option_result: creator
+      options:
+        CrossCode:
+          # This goal is known to be broken with the DLC in apworld 0.9.1
+          enable_dlc: false
+    - option_category: CrossCode
+      option_name: goal
+      option_result: monkey
+      options:
+        CrossCode:
+          # This is the short goal, so disable the DLC to keep it shorter
+          enable_dlc: false
+    - option_category: CrossCode
+      option_name: goal
+      option_result: diorbis
+      options:
+        CrossCode:
+          # This is a DLC boss, so require the DLC
+          enable_dlc: true
+    - option_category: CrossCode
+      option_name: goal
+      option_result: observatory
+      options:
+        CrossCode:
+          quest_rando: true
+          enable_dlc:
+            'false': 30
+            'true': 20
+          +local_items:
+            - Broken Chakrams
+            - Broken Deck
+            - Broken Sword
+            - Broken Shield
+            - Broken Gauntlet
     - option_category: null
       option_name: name
       option_result: Player{player}
